@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+.TopNav {
+  height: 100vh;
+  background-image: url("../../assets/open.jpg");
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+}
+
+.TopNav .bullet {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
