@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import "./TopNav.css";
 import NavItem from "components/NavItem/NavItem";
 import { Row } from "react-bootstrap";
