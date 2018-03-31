@@ -20,7 +20,7 @@ class TopNav extends Component {
           <NavItem className="item" text="CONTACT" />
         </Row>
         <div className="bottom">
-          <span class="glyphicon glyphicon-chevron-down down-arrow" />
+          <span className="glyphicon glyphicon-chevron-down down-arrow" />
         </div>
       </div>
     );
