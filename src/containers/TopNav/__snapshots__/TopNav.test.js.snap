@@ -17,145 +17,17 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Row
-        bsClass="row"
-        componentClass="div"
->
-        <NavItem
-                className="item"
-                text="WORK"
-        />
-        <span
-                className="bullet"
-        >
-                ·
-        </span>
-        <NavItem
-                className="item"
-                text="ABOUT"
-        />
-        <span
-                className="bullet"
-        >
-                ·
-        </span>
-        <NavItem
-                className="item"
-                text="CONTACT"
-        />
-</Row>,
-      "className": "TopNav",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "bsClass": "row",
-        "children": Array [
-          <NavItem
-            className="item"
-            text="WORK"
-/>,
-          <span
-            className="bullet"
->
-            ·
-</span>,
-          <NavItem
-            className="item"
-            text="ABOUT"
-/>,
-          <span
-            className="bullet"
->
-            ·
-</span>,
-          <NavItem
-            className="item"
-            text="CONTACT"
-/>,
-        ],
-        "componentClass": "div",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "className": "item",
-            "text": "WORK",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "·",
-            "className": "bullet",
-          },
-          "ref": null,
-          "rendered": "·",
-          "type": "span",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "className": "item",
-            "text": "ABOUT",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "·",
-            "className": "bullet",
-          },
-          "ref": null,
-          "rendered": "·",
-          "type": "span",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "className": "item",
-            "text": "CONTACT",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <Row
+      "children": Array [
+        <Row
           bsClass="row"
+          className="navigation"
           componentClass="div"
 >
+          <img
+                    height="100"
+                    src="orca_logo.gif"
+                    width="100"
+          />
           <NavItem
                     className="item"
                     text="WORK"
@@ -179,16 +51,30 @@ ShallowWrapper {
                     text="CONTACT"
           />
 </Row>,
-        "className": "TopNav",
-      },
-      "ref": null,
-      "rendered": Object {
+        <div
+          className="bottom"
+>
+          <span
+                    className="glyphicon glyphicon-chevron-down down-arrow"
+          />
+</div>,
+      ],
+      "className": "TopNav",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
         "props": Object {
           "bsClass": "row",
           "children": Array [
+            <img
+              height="100"
+              src="orca_logo.gif"
+              width="100"
+/>,
             <NavItem
               className="item"
               text="WORK"
@@ -212,10 +98,24 @@ ShallowWrapper {
               text="CONTACT"
 />,
           ],
+          "className": "navigation",
           "componentClass": "div",
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "height": "100",
+              "src": "orca_logo.gif",
+              "width": "100",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -279,6 +179,226 @@ ShallowWrapper {
         ],
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span
+            className="glyphicon glyphicon-chevron-down down-arrow"
+/>,
+          "className": "bottom",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "glyphicon glyphicon-chevron-down down-arrow",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Row
+            bsClass="row"
+            className="navigation"
+            componentClass="div"
+>
+            <img
+                        height="100"
+                        src="orca_logo.gif"
+                        width="100"
+            />
+            <NavItem
+                        className="item"
+                        text="WORK"
+            />
+            <span
+                        className="bullet"
+            >
+                        ·
+            </span>
+            <NavItem
+                        className="item"
+                        text="ABOUT"
+            />
+            <span
+                        className="bullet"
+            >
+                        ·
+            </span>
+            <NavItem
+                        className="item"
+                        text="CONTACT"
+            />
+</Row>,
+          <div
+            className="bottom"
+>
+            <span
+                        className="glyphicon glyphicon-chevron-down down-arrow"
+            />
+</div>,
+        ],
+        "className": "TopNav",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "row",
+            "children": Array [
+              <img
+                height="100"
+                src="orca_logo.gif"
+                width="100"
+/>,
+              <NavItem
+                className="item"
+                text="WORK"
+/>,
+              <span
+                className="bullet"
+>
+                ·
+</span>,
+              <NavItem
+                className="item"
+                text="ABOUT"
+/>,
+              <span
+                className="bullet"
+>
+                ·
+</span>,
+              <NavItem
+                className="item"
+                text="CONTACT"
+/>,
+            ],
+            "className": "navigation",
+            "componentClass": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "height": "100",
+                "src": "orca_logo.gif",
+                "width": "100",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "item",
+                "text": "WORK",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "·",
+                "className": "bullet",
+              },
+              "ref": null,
+              "rendered": "·",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "item",
+                "text": "ABOUT",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "·",
+                "className": "bullet",
+              },
+              "ref": null,
+              "rendered": "·",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "item",
+                "text": "CONTACT",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="glyphicon glyphicon-chevron-down down-arrow"
+/>,
+            "className": "bottom",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "glyphicon glyphicon-chevron-down down-arrow",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

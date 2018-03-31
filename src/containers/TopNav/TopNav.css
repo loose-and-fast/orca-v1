@@ -5,10 +5,28 @@
   background-image: url("../../assets/open.jpg");
   background-size: cover;
   font-family: "Orbitron", sans-serif;
+  position: relative;
 }
 
 .TopNav .bullet {
   font-size: 2rem;
   font-weight: bold;
   color: white;
+}
+
+.TopNav .navigation {
+}
+
+.TopNav .down-arrow {
+  font-size: 10rem;
+  color: white;
+  position: relative;
+  left: -50%;
+  opacity: 0.25;
+}
+
+.TopNav .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
 }
