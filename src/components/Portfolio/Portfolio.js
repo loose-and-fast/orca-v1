@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { Col, Button, Row } from "react-bootstrap";
 import PortfolioBlocks from "components/PortfolioBlocks/PortfolioBlocks";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
@@ -8,7 +8,6 @@ import {
 	camera,
 	clock,
 	dice,
-	logo,
 	lion,
 	rose,
 	tower,
@@ -19,9 +18,7 @@ import {
 
 import "./Portfolio.css";
 
-const Portfolio = () => {
-	console.log('camera', camera);
-	return (
+const Portfolio = () => (
 	<div className="Portfolio">
 		<Row>
 			<h6>THE SELECTED OF</h6>
@@ -51,9 +48,9 @@ const Portfolio = () => {
 				Load More
 			</Button>
 		</Row>
-	</div>);
-}
+	</div>
+);
 
-Portfolio.propTypes = {};
+// Portfolio.propTypes = {};
 
 export default Portfolio;
