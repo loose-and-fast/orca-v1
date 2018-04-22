@@ -12,7 +12,7 @@ class TopNav extends Component {
     return (
       <div className="TopNav">
         <Row className="navigation">
-          <img src={logo} height="100" width="100" />
+          <img src={logo} height="100" width="100" alt="orca logo"/>
           <NavItem className="item" text="WORK" />
           <span className="bullet">&middot;</span>
           <NavItem className="item" text="ABOUT" />
