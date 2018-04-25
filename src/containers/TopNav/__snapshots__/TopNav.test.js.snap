@@ -24,6 +24,7 @@ ShallowWrapper {
           componentClass="div"
 >
           <img
+                    alt="orca logo"
                     height="100"
                     src="orca_logo.gif"
                     width="100"
@@ -71,6 +72,7 @@ ShallowWrapper {
           "bsClass": "row",
           "children": Array [
             <img
+              alt="orca logo"
               height="100"
               src="orca_logo.gif"
               width="100"
@@ -108,6 +110,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "alt": "orca logo",
               "height": "100",
               "src": "orca_logo.gif",
               "width": "100",
@@ -219,6 +222,7 @@ ShallowWrapper {
             componentClass="div"
 >
             <img
+                        alt="orca logo"
                         height="100"
                         src="orca_logo.gif"
                         width="100"
@@ -266,6 +270,7 @@ ShallowWrapper {
             "bsClass": "row",
             "children": Array [
               <img
+                alt="orca logo"
                 height="100"
                 src="orca_logo.gif"
                 width="100"
@@ -303,6 +308,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "alt": "orca logo",
                 "height": "100",
                 "src": "orca_logo.gif",
                 "width": "100",
