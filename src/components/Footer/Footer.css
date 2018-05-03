@@ -1,0 +1,16 @@
+.Footer {
+  background-color: black;
+  text-align: center;
+}
+
+.Footer .logo {
+  height: 10rem;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logo-wrapper {
+  position: absolute;
+}

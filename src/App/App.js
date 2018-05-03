@@ -3,6 +3,7 @@ import "./App.css";
 import TopNav from "containers/TopNav/TopNav";
 import Portfolio from "components/Portfolio/Portfolio";
 import AboutMe from "components/AboutMe/AboutMe";
+import Footer from "components/Footer/Footer";
 // import { Grid } from "react-bootstrap";
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <TopNav />
         <Portfolio />
         <AboutMe />
+        <Footer />
       </div>
     );
   }
